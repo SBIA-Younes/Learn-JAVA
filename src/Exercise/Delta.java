@@ -1,4 +1,4 @@
-package Delta;
+package Exercise;
 
 import java.util.Scanner;
 
