@@ -1,5 +1,7 @@
 package Boucle;
 
+import java.util.Scanner;
+
 public class BoucleWhile {
     public static void main(String[] args) {
 //      I'm going to initialize my counter for while loop
@@ -17,5 +19,21 @@ public class BoucleWhile {
             System.out.println("Hello World !! " + i);
             i++;
         }
+        scanLoop();
+    }
+
+//        I'm going to create a loop white while that scans the keyboard
+    private static void scanLoop() {
+//        I initialize scanner variable for scan
+        Scanner scanner = new Scanner(System.in);
+        String input = "";
+        while (!input.equals("OK")){
+            System.out.print("Enter a word : ");
+            input = scanner.nextLine();
+            System.out.println(input);
+
+
+        }
+
     }
 }
