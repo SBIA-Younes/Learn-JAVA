@@ -30,7 +30,8 @@ public class BoucleWhile {
         while (!input.equals("OK")){
             System.out.print("Enter a word : ");
             input = scanner.nextLine();
-            System.out.println(input);
+            // Inp
+            System.out.println( "You have input " + input + ", It is incorect\n input again Thank's");
 
 
         }
